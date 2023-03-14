@@ -1,0 +1,82 @@
+"""
+Soru1 : Python’da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+
+Python Data Types (Python Veri Tipleri)
+
+Integer: Tam sayıların içerisinde tutulduğu veri tipidir.
+"""
+
+int_ornek=20
+print(type(int_ornek))
+
+#int
+
+#Float: Ondalıklı sayıların içerisinde tutulduğu veri tipidir.
+
+float_ornek=20.5
+print(type(float_ornek))
+
+#float
+
+#String: Metinsel ifadelerin yani yazıların veya karakterlerin içerisinde tutulduğu veri tipidir.
+
+str_ornek=“kodlama.io 1.ödev”
+print(type(str_ornek))
+
+#string
+
+#Bool: True (Doğru), False (Yanlış) gibi iki değeri döndürür.
+
+bool_ornek=True
+print (type(bool_ornek))
+
+#bool
+
+#List: Günlük hayatta kullanılan listeleme yöntemine benzemektedir.Bu veri tipinde elemanlar sıralanabilir,güncellenebilir.Köşeli parantez [ ] ile kullanılır.
+
+#Tuples: Listeye benzer bir veri türüdür. Ancak listelerden farklı olarak, köşeli parantez yerine parantezler ( ) içine alınır ve tuple içindeki elemanlar değiştirilemez yani tuple listesine ekleme, silme ve güncelleme yapılamaz.
+
+tuple_ornek = (“kedi”, “köpek” , “kuş”)
+print(tuple_ornek) 
+
+#(“kedi”, “köpek” , “kuş”)
+
+#Dictionary: Veri yapısı key ve value şeklinde verileri saklayabileceğimiz bir veri yapısıdır.
+
+"""
+Soru2 : Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+Kodlama.io üzerindeki metinsel ifadeler string tipiyle tanımlanmış veri tipleridir.
+Eğitimin ilerleme durumunu gösteren %50 gibi sayısal veriler ise integer veri tipleridir.
+Kategori bölümündeki alt başlıklar list veri tipine örnek gösterilebilir. 
+"""
+
+"""
+Soru3 : Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+
+Verilen ödevlerin tamamlanmadan ve bir sonraki bölüme geçilmemesi bir şart bloğu örneğidir.
+"""
+
+BitirVeDevamEt = True
+
+#Eğer bölüm tamamlandıysa butona basıldığında tamamlandığını ifade eder ve sonraki bölüme geçer.
+
+if BitirVeDevamEt == False :
+   print(“Bitir ve devam et tamamlanma butonu olduğu için tik atılsın ve sonraki bölüme geçilsin.”)
+
+else:
+  print(“Bölümü tamamlayınız.”)
+  
+#Siteye girişte parola ve kullanıcı adı kısmında doğru parola girildiyse siteye başarılı şekilde girilir fakat doğru parola girilmediyse yanlış parola uyarısı alınır.Aynı şekilde bu durum e-mail adresi için de geçerlidir.
+
+email = "aabbccdd@gmail.com"
+password = "12345"
+ 
+input1=input("enter your email:")
+input2=input("enter your password")
+ 
+if(input1==email and input2==password):
+    print("succesful")
+else:
+    print("Your email or password is in correct")
+
+
