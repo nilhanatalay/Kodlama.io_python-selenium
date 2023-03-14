@@ -1,0 +1,15 @@
+class Person:
+    def __init__(self,name,lastName) :
+        # Person için dışarıdan erişebilir name ve last name oluşturuldu.
+        self.name = name
+        self.lastName = lastName
+
+
+musteri1 = Person("Nilhan","Atalay")
+musteri2 = Person("Burak","Koyuncu")
+musteri3 = Person("Ceren","Doğan")
+musteri4 = Person("Mustafa","Doğan")
+
+print(musteri1.name)
+
+print(musteri1.lastName)
