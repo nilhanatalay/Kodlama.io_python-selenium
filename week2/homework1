@@ -1,0 +1,97 @@
+#1.HTML
+
+#What is HTML ?
+
+
+#HTML stands for hypertext markup language. It's made of keywords and commands that web designers use for creating websites. 
+#HTML is considered one of the three essential tools in webpage creation: HTML provides the structure or the way text, pictures, and so on will appear on the website. CSS (cascading style sheets) sets the visual properties of these elements, such as colors, format, and layout. Meanwhile, Javascript makes these elements behave in certain ways depending on a user's action. For example, the font size of text can increase when users hover their mouse or click a button on a page.
+
+#What's HTML Used For? 
+
+
+#HTML is the default language of websites and web-based documents. It helps a browser understand the structure and style of a document or files for viewing over the internet. It allows your web pages to host audio, videos, spreadsheets, and other applications. It also facilitates navigation within web pages or between websites through hypertext.
+
+
+#What Makes Up an HTML Document?
+
+#The primary components of an HTML document are tags and elements. They tell your browser how to display your content. Tags start and end with angled brackets or the "less than" and "greater than" signs. Letters between them are called element contents.
+
+#The following make up the basic structure of an HTML page (in their order of appearance):
+
+#Document type declaration (DTD)
+#The <!DOCTYPE html> appears at the start or very top of an HTML document. It tells the browser what HTML version was used to produce the page.
+
+#HTML root element 
+#The <html>, which is written below the DTD, acts like the "main container" that holds all the other elements. It can specify the language of the HTML document. For instance <html lang="en-US"> means the page is written in American English. 
+
+#Head 
+#The <head>, which you'll find between <html> and <body>, contains metadata describing information about the page. They include: 
+
+#The <title> or the overall subject of the webpage. It's separate from but should match the headline tag that appears in the body.
+#The <style> defines how elements should show up in the browser. This includes the color of the headline, text alignment, background color of the body, and so on.
+#The <link> indicates the resources (i.e. another webpage or external style sheet) linked to the HTML page. 
+#The <meta> contains keywords, author, and page description.
+#The <base> refers to the default URL.
+#Body 
+#The <body> is the main portion of the document that contains the information, which the browser displays on the screen. It can include the following:
+#The header features the site title, logo, main navigation, and search bar.
+#The main content covers the article title or heading, article content, date posted, author, and so on.
+#The sidebars display widgets and secondary navigation, such as archives by category or date.
+#The footer offers contact info, social links, copyright, and tertiary navigation.
+
+————————————————————————————————————-————————————————————————————————————-————————————————————————————————————-————————————————————————————————————-
+
+#2.HTML Locators
+
+#Locators are the way to identify an HTML element on a web page, and almost all UI automation tools provide the capability to use locators for the identification of HTML elements on a web page. Following the same trend, Selenium also possesses the ability to use "Locators" for the identification of HTML elements and are popularly known as "Selenium Locators”.
+
+#Different Types of Locators in Selenium
+
+#Here’s a snapshot overview of top 8 locators in Selenium:
+  #By CSS ID: find_element_by_id
+	#By CSS class name: find_element_by_class_name
+	#By name attribute: find_element_by_name
+	#By DOM structure or Xpath: find_element_by_xpath
+	#By tagName: find_element_by_tag_name()
+	#By link text: find_element_by_link_text
+	#By partial link text: find_element_by_partial_link_text
+	#By HTML tag name: find_element_by_tag_name
+
+————————————————————————————————————-————————————————————————————————————-————————————————————————————————————-————————————————————————————————————-
+
+#3.Selenium Actions
+
+#What are Selenium Actions?
+
+#Selenium Actions allow you to perform UI actions in your test. Clicking, double-clicking, hovering or other complex mouse actions can be scripted with an action.
+
+#Advanced user interactions such as holding a key while clicking something, or dragging and dropping an item are supported with Selenium Actions.
+
+#These actions are performed by the Advanced User Interactions API, which consists of the Selenium Action class to perform these interactions.
+
+#Action class is useful mainly for mouse and keyboard actions. In order to perform such actions, Selenium provides various methods.
+ #Mouse Actions in Selenium:
+ 
+	#doubleClick(): Performs double click on the element
+	#clickAndHold(): Performs long click on the mouse without releasing it
+	#dragAndDrop(): Drags the element from one point and drops to another
+	#moveToElement(): Shifts the mouse pointer to the center of the element
+	#contextClick(): Performs right-click on the mouse
+  
+#Keyboard Actions in Selenium:
+
+	#sendKeys(): Sends a series of keys to the element
+	#keyUp(): Performs key release
+	#keyDown(): Performs keypress without release
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
