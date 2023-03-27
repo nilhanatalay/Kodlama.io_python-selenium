@@ -19,7 +19,11 @@ Bir fonksiyonum çalıştı
 
 Pytest’teki en yaygın kullanılan dekoratörler şunlardır:
 @pytest.fixture: Test fonksiyonlarına veya sınıflarına bir bağımlılık eklemek veya belirli bir bağımlılığı her test için bir kere çağırmak için kullanılır.
+
 @pytest.mark.parametrize: Test fonksiyonlarına veya sınıflarına farklı giriş değerleri sağlamak için kullanılır. Bu, bir testi, birden fazla giriş değeriyle çalıştırmak için kullanışlıdır.
+
 @pytest.mark.skip: Belirli bir testi atlamak için kullanılır.
+
 @pytest.mark.xfail: Belirli bir testin başarısız olması bekleniyorsa ve başarısızlık raporlanmasına izin verilmemesi gerekiyorsa kullanılır.
+
 @pytest.mark.timeout: Belirli bir testin maksimum süresini belirlemek için kullanılır.
